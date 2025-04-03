@@ -1,0 +1,292 @@
+2025-04-03T17:20:56.182Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T17:20:57.140Z [INFO]: Connected to MongoDB
+2025-04-03T17:23:03.916Z [INFO]: File uploaded: SakshamkanojiaResume-10.pdf by user 67eec3d3559bb956626b568e
+2025-04-03T17:23:04.014Z [INFO]: Starting PDF to XML conversion for file ID: 67eec3f7559bb956626b5693
+2025-04-03T17:23:04.016Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743700983905-SakshamkanojiaResume-10.pdf
+2025-04-03T17:23:04.408Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743700983905-SakshamkanojiaResume-10.pdf
+2025-04-03T17:23:04.536Z [INFO]: Successfully converted file ID: 67eec3f7559bb956626b5693 to XML
+2025-04-03T18:05:16.497Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T18:05:17.209Z [INFO]: Connected to MongoDB
+2025-04-03T18:19:23.135Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743704363078" (type string) at path "_id" for model "File"
+2025-04-03T18:19:23.136Z [ERROR]: Cast to ObjectId failed for value "1743704363078" (type string) at path "_id" for model "File" - /api/files/1743704363078 - GET - ::1
+2025-04-03T18:19:23.137Z [ERROR]: CastError: Cast to ObjectId failed for value "1743704363078" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T18:22:08.898Z [INFO]: File uploaded: Full_Stack_Assignment.pdf by user 67eec3d3559bb956626b568e
+2025-04-03T18:22:08.966Z [INFO]: Starting PDF to XML conversion for file ID: 67eed1d03582afe6c051d4c7
+2025-04-03T18:22:08.966Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743704528891-Full_Stack_Assignment.pdf
+2025-04-03T18:22:09.175Z [ERROR]: Error converting PDF to XML: bad XRef entry
+2025-04-03T18:22:09.178Z [ERROR]: Error
+    at UnknownErrorExceptionClosure (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:443:37)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:446:2)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:7939:23)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:88:18
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:91:10
+    at webpackUniversalModuleDefinition (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:18:20)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:25:3)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+2025-04-03T18:22:09.178Z [ERROR]: Error converting file ID: 67eed1d03582afe6c051d4c7 to XML: Failed to convert PDF to XML: bad XRef entry
+2025-04-03T18:25:01.930Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T18:25:02.453Z [INFO]: Connected to MongoDB
+2025-04-03T18:26:13.139Z [INFO]: File uploaded: Sakshamk-Resume-SDWE2.pdf by user 67eed2a6f1623a223b2ba575
+2025-04-03T18:26:13.176Z [INFO]: Starting PDF to XML conversion for file ID: 67eed2c5f1623a223b2ba57a
+2025-04-03T18:26:13.177Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743704773136-Sakshamk-Resume-SDWE2.pdf
+2025-04-03T18:26:13.379Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743704773136-Sakshamk-Resume-SDWE2.pdf
+2025-04-03T18:26:13.508Z [INFO]: Successfully converted file ID: 67eed2c5f1623a223b2ba57a to XML
+2025-04-03T18:26:26.893Z [INFO]: File uploaded: Sakshamk-Resume-SDET01.pdf by user 67eed2a6f1623a223b2ba575
+2025-04-03T18:26:26.930Z [INFO]: Starting PDF to XML conversion for file ID: 67eed2d2f1623a223b2ba586
+2025-04-03T18:26:26.931Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743704786889-Sakshamk-Resume-SDET01.pdf
+2025-04-03T18:26:27.001Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743704786889-Sakshamk-Resume-SDET01.pdf
+2025-04-03T18:26:27.038Z [INFO]: Successfully converted file ID: 67eed2d2f1623a223b2ba586 to XML
+2025-04-03T19:12:43.762Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743707563705" (type string) at path "_id" for model "File"
+2025-04-03T19:12:43.767Z [ERROR]: Cast to ObjectId failed for value "1743707563705" (type string) at path "_id" for model "File" - /api/files/1743707563705 - GET - ::1
+2025-04-03T19:12:43.770Z [ERROR]: CastError: Cast to ObjectId failed for value "1743707563705" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T19:13:37.096Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743707617046" (type string) at path "_id" for model "File"
+2025-04-03T19:13:37.098Z [ERROR]: Cast to ObjectId failed for value "1743707617046" (type string) at path "_id" for model "File" - /api/files/1743707617046 - GET - ::1
+2025-04-03T19:13:37.100Z [ERROR]: CastError: Cast to ObjectId failed for value "1743707617046" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T19:15:10.837Z [INFO]: File uploaded: Sakshamk-Resumek-PAData.pdf by user 67eed2a6f1623a223b2ba575
+2025-04-03T19:15:10.896Z [INFO]: Starting PDF to XML conversion for file ID: 67eede3ef1623a223b2ba5ee
+2025-04-03T19:15:10.898Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743707710834-Sakshamk-Resumek-PAData.pdf
+2025-04-03T19:15:10.962Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743707710834-Sakshamk-Resumek-PAData.pdf
+2025-04-03T19:15:11.098Z [INFO]: Successfully converted file ID: 67eede3ef1623a223b2ba5ee to XML
+2025-04-03T19:18:35.333Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743707915282" (type string) at path "_id" for model "File"
+2025-04-03T19:18:35.333Z [ERROR]: Cast to ObjectId failed for value "1743707915282" (type string) at path "_id" for model "File" - /api/files/1743707915282 - GET - ::1
+2025-04-03T19:18:35.334Z [ERROR]: CastError: Cast to ObjectId failed for value "1743707915282" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T19:30:38.728Z [INFO]: File uploaded: Sakshamk-Resume-DE.pdf by user 67eed2a6f1623a223b2ba575
+2025-04-03T19:30:38.784Z [INFO]: Starting PDF to XML conversion for file ID: 67eee1def1623a223b2ba627
+2025-04-03T19:30:38.785Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743708638725-Sakshamk-Resume-DE.pdf
+2025-04-03T19:30:38.842Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743708638725-Sakshamk-Resume-DE.pdf
+2025-04-03T19:30:38.977Z [INFO]: Successfully converted file ID: 67eee1def1623a223b2ba627 to XML
+2025-04-03T19:33:51.422Z [INFO]: File uploaded: Sakshamk-Resume-one.pdf by user 67eed2a6f1623a223b2ba575
+2025-04-03T19:33:51.473Z [INFO]: Starting PDF to XML conversion for file ID: 67eee29ff1623a223b2ba639
+2025-04-03T19:33:51.473Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743708831419-Sakshamk-Resume-one.pdf
+2025-04-03T19:33:51.552Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eed2a6f1623a223b2ba575\1743708831419-Sakshamk-Resume-one.pdf
+2025-04-03T19:33:51.593Z [INFO]: Successfully converted file ID: 67eee29ff1623a223b2ba639 to XML
+2025-04-03T19:39:04.466Z [INFO]: File uploaded: Sakshamk-Resume-TRJS.pdf by user 67eec3d3559bb956626b568e
+2025-04-03T19:39:04.516Z [INFO]: Starting PDF to XML conversion for file ID: 67eee3d8f1623a223b2ba65d
+2025-04-03T19:39:04.517Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743709144464-Sakshamk-Resume-TRJS.pdf
+2025-04-03T19:39:04.588Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743709144464-Sakshamk-Resume-TRJS.pdf
+2025-04-03T19:39:04.628Z [INFO]: Successfully converted file ID: 67eee3d8f1623a223b2ba65d to XML
+2025-04-03T19:39:43.701Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:39:44.311Z [INFO]: Connected to MongoDB
+2025-04-03T19:39:46.563Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:39:47.037Z [INFO]: Connected to MongoDB
+2025-04-03T19:39:49.688Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:39:50.119Z [INFO]: Connected to MongoDB
+2025-04-03T19:39:53.258Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:39:53.719Z [INFO]: Connected to MongoDB
+2025-04-03T19:39:59.528Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:39:59.968Z [INFO]: Connected to MongoDB
+2025-04-03T19:40:03.127Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:40:03.548Z [INFO]: Connected to MongoDB
+2025-04-03T19:40:06.127Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:40:06.575Z [INFO]: Connected to MongoDB
+2025-04-03T19:40:08.461Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:40:08.915Z [INFO]: Connected to MongoDB
+2025-04-03T19:40:11.257Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:40:11.679Z [INFO]: Connected to MongoDB
+2025-04-03T19:40:25.373Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:40:25.812Z [INFO]: Connected to MongoDB
+2025-04-03T19:40:28.020Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:40:28.485Z [INFO]: Connected to MongoDB
+2025-04-03T19:41:17.488Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:41:18.069Z [INFO]: Connected to MongoDB
+2025-04-03T19:41:41.667Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:41:42.161Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:08.559Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:08.997Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:11.735Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:12.161Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:14.573Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:14.993Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:19.079Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:19.559Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:22.920Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:23.339Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:26.570Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:27.044Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:29.054Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:29.486Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:32.247Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:32.701Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:38.852Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:39.319Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:42.014Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:42.500Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:45.025Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:45.484Z [INFO]: Connected to MongoDB
+2025-04-03T19:42:54.904Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:42:55.333Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:01.313Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:01.757Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:04.148Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:04.597Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:08.585Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:09.036Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:12.121Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:12.602Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:16.039Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:16.491Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:20.272Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:20.719Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:23.314Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:23.776Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:28.739Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:29.191Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:32.090Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:32.649Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:36.361Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:36.854Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:39.605Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:40.058Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:43.030Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:43.462Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:47.037Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:47.518Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:51.326Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:51.757Z [INFO]: Connected to MongoDB
+2025-04-03T19:43:57.813Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:43:58.254Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:01.412Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:01.897Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:04.922Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:05.377Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:11.115Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:11.567Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:17.010Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:17.444Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:20.047Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:20.501Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:22.971Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:23.452Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:29.530Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:29.961Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:34.016Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:34.468Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:38.274Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:38.708Z [INFO]: Connected to MongoDB
+2025-04-03T19:44:41.709Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:44:42.148Z [INFO]: Connected to MongoDB
+2025-04-03T19:46:47.710Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:46:48.297Z [INFO]: Connected to MongoDB
+2025-04-03T19:46:52.470Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:46:52.910Z [INFO]: Connected to MongoDB
+2025-04-03T19:46:55.466Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:46:55.943Z [INFO]: Connected to MongoDB
+2025-04-03T19:46:57.727Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:46:58.190Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:01.631Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:02.054Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:05.240Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:05.677Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:17.642Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:18.108Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:20.559Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:20.984Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:22.612Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:23.048Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:27.226Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:27.702Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:43.432Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:43.860Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:44.801Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:45.230Z [INFO]: Connected to MongoDB
+2025-04-03T19:47:50.390Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:47:50.877Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:04.933Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:05.422Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:07.577Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:08.063Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:09.836Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:10.294Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:12.713Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:13.147Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:18.097Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:18.537Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:21.414Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:21.848Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:24.425Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:24.875Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:28.565Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:29.007Z [INFO]: Connected to MongoDB
+2025-04-03T19:48:31.752Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:48:32.209Z [INFO]: Connected to MongoDB
+2025-04-03T19:51:52.099Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:51:52.750Z [INFO]: Connected to MongoDB
+2025-04-03T19:51:54.175Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:51:54.616Z [INFO]: Connected to MongoDB
+2025-04-03T19:52:04.496Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:52:04.976Z [INFO]: Connected to MongoDB
+2025-04-03T19:52:17.734Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-03T19:53:02.518Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:53:03.216Z [INFO]: Connected to MongoDB
+2025-04-03T19:53:05.330Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:53:05.860Z [INFO]: Connected to MongoDB
+2025-04-03T19:53:18.844Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-03T19:53:42.012Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:53:42.528Z [INFO]: Connected to MongoDB
+2025-04-03T19:53:46.314Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-03T19:54:02.495Z [INFO]: Server is running on 5000
+2025-04-03T19:54:03.083Z [INFO]: Connected to MongoDB
+2025-04-03T19:54:24.692Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:54:25.133Z [INFO]: Connected to MongoDB
+2025-04-03T19:54:45.297Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-03T19:55:18.699Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:55:19.259Z [INFO]: Connected to MongoDB
+2025-04-03T19:55:20.394Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:55:20.852Z [INFO]: Connected to MongoDB
+2025-04-03T19:55:29.626Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:55:31.163Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T19:55:31.688Z [INFO]: Connected to MongoDB
+2025-04-03T19:55:46.808Z [INFO]: File uploaded: Sakshamk-Resume-SDJava2.pdf by user 67eec3d3559bb956626b568e
+2025-04-03T19:55:46.856Z [INFO]: Starting PDF to XML conversion for file ID: 67eee7c29e0587ec1e4acc6a
+2025-04-03T19:55:46.857Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743710146801-Sakshamk-Resume-SDJava2.pdf
+2025-04-03T19:55:47.055Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743710146801-Sakshamk-Resume-SDJava2.pdf
+2025-04-03T19:55:47.173Z [INFO]: Successfully converted file ID: 67eee7c29e0587ec1e4acc6a to XML
+2025-04-03T20:09:54.855Z [INFO]: Server is running on http://localhost:5000
+2025-04-03T20:09:55.409Z [INFO]: Connected to MongoDB
+2025-04-03T20:18:59.035Z [INFO]: File uploaded: Sakshamk-Resume-SRJS10.pdf by user 67eec3d3559bb956626b568e
+2025-04-03T20:18:59.092Z [INFO]: Starting PDF to XML conversion for file ID: 67eeed3315ff30146caa572a
+2025-04-03T20:18:59.092Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743711539032-Sakshamk-Resume-SRJS10.pdf
+2025-04-03T20:18:59.474Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743711539032-Sakshamk-Resume-SRJS10.pdf
+2025-04-03T20:18:59.580Z [INFO]: Successfully converted file ID: 67eeed3315ff30146caa572a to XML

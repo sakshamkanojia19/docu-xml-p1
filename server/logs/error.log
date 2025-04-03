@@ -1,0 +1,69 @@
+2025-04-03T18:19:23.135Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743704363078" (type string) at path "_id" for model "File"
+2025-04-03T18:19:23.136Z [ERROR]: Cast to ObjectId failed for value "1743704363078" (type string) at path "_id" for model "File" - /api/files/1743704363078 - GET - ::1
+2025-04-03T18:19:23.137Z [ERROR]: CastError: Cast to ObjectId failed for value "1743704363078" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T18:22:09.175Z [ERROR]: Error converting PDF to XML: bad XRef entry
+2025-04-03T18:22:09.178Z [ERROR]: Error
+    at UnknownErrorExceptionClosure (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:443:37)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:446:2)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:7939:23)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:88:18
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:91:10
+    at webpackUniversalModuleDefinition (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:18:20)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:25:3)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+2025-04-03T18:22:09.178Z [ERROR]: Error converting file ID: 67eed1d03582afe6c051d4c7 to XML: Failed to convert PDF to XML: bad XRef entry
+2025-04-03T19:12:43.762Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743707563705" (type string) at path "_id" for model "File"
+2025-04-03T19:12:43.767Z [ERROR]: Cast to ObjectId failed for value "1743707563705" (type string) at path "_id" for model "File" - /api/files/1743707563705 - GET - ::1
+2025-04-03T19:12:43.770Z [ERROR]: CastError: Cast to ObjectId failed for value "1743707563705" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T19:13:37.096Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743707617046" (type string) at path "_id" for model "File"
+2025-04-03T19:13:37.098Z [ERROR]: Cast to ObjectId failed for value "1743707617046" (type string) at path "_id" for model "File" - /api/files/1743707617046 - GET - ::1
+2025-04-03T19:13:37.100Z [ERROR]: CastError: Cast to ObjectId failed for value "1743707617046" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T19:18:35.333Z [ERROR]: Error retrieving file details: Cast to ObjectId failed for value "1743707915282" (type string) at path "_id" for model "File"
+2025-04-03T19:18:35.333Z [ERROR]: Cast to ObjectId failed for value "1743707915282" (type string) at path "_id" for model "File" - /api/files/1743707915282 - GET - ::1
+2025-04-03T19:18:35.334Z [ERROR]: CastError: Cast to ObjectId failed for value "1743707915282" (type string) at path "_id" for model "File"
+    at SchemaObjectId.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (F:\Pdf-xml\server\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (F:\Pdf-xml\server\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4907:12)
+    at Query._castConditions (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2325:10)
+    at model.Query._findOne (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:2648:8)
+    at model.Query.exec (F:\Pdf-xml\server\node_modules\mongoose\lib\query.js:4456:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async F:\Pdf-xml\server\routes\files.js:177:18
+2025-04-03T19:52:17.734Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-03T19:53:18.844Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-03T19:53:46.314Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-03T19:54:45.297Z [ERROR]: Uncaught Exception: cb is not a function
