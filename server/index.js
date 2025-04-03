@@ -41,9 +41,9 @@ app.use(notFound);
 app.use(errorHandler);
 
 // Start server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 app.listen(PORT, () => {
-  logger.info(`Server is running on http://localhost:${PORT}`);
+  logger.info(`Server is running on ${PORT}`);
 });
 
 // Handle unhandled promise rejections
