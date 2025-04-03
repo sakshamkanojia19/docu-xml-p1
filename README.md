@@ -44,6 +44,13 @@
    npm run dev
    ```
 
+   to run make server and frontend :  .env file seprate
+   frontend : VITE_API_URL=""
+   Server  : MONGODB_URI=""
+             JWT_SECRET=
+              JWT_EXPIRE=7d
+
+
 ## 📜 Usage
 1. Register/Login to access the platform.
 2. Upload a PDF document.
