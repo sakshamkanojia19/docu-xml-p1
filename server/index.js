@@ -16,7 +16,7 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors({ origin: '*' })); // Allow all origins (for debugging)
+app.use(cors({ origin: "https://docu-xml.vercel.app", credentials: true }));
 app.use(express.json());
 
 // Connect to MongoDB
