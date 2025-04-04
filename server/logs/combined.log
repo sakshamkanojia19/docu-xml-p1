@@ -356,3 +356,10 @@
 2025-04-04T04:46:15.363Z [INFO]: Connected to MongoDB
 2025-04-04T04:46:20.139Z [INFO]: Server is running on http://localhost:5000
 2025-04-04T04:46:20.974Z [INFO]: Connected to MongoDB
+2025-04-04T04:46:51.543Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:46:52.126Z [INFO]: Connected to MongoDB
+2025-04-04T04:52:47.285Z [INFO]: File uploaded: Sakshamk-Resume-SDET19.pdf by user 67eec3d3559bb956626b568e
+2025-04-04T04:52:47.391Z [INFO]: Starting PDF to XML conversion for file ID: 67ef659fc6a3c3efd4ddaf78
+2025-04-04T04:52:47.393Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743742367273-Sakshamk-Resume-SDET19.pdf
+2025-04-04T04:52:48.209Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743742367273-Sakshamk-Resume-SDET19.pdf
+2025-04-04T04:52:48.370Z [INFO]: Successfully converted file ID: 67ef659fc6a3c3efd4ddaf78 to XML
