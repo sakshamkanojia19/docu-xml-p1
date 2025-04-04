@@ -67,3 +67,28 @@
 2025-04-03T19:53:18.844Z [ERROR]: Uncaught Exception: cb is not a function
 2025-04-03T19:53:46.314Z [ERROR]: Uncaught Exception: cb is not a function
 2025-04-03T19:54:45.297Z [ERROR]: Uncaught Exception: cb is not a function
+2025-04-04T04:31:08.224Z [ERROR]: Not Found - /favicon.ico - /favicon.ico - GET - ::1
+2025-04-04T04:31:08.228Z [ERROR]: Error: Not Found - /favicon.ico
+    at notFound (F:\Pdf-xml\server\middleware\errorHandler.js:6:17)
+    at Layer.handle [as handle_request] (F:\Pdf-xml\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:328:13)
+    at F:\Pdf-xml\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (F:\Pdf-xml\server\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (F:\Pdf-xml\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:328:13)
+    at F:\Pdf-xml\server\node_modules\express\lib\router\index.js:286:9
+2025-04-04T04:44:12.257Z [ERROR]: Error converting PDF to XML: PDFDocument: stream must have data
+2025-04-04T04:44:12.260Z [ERROR]: Error
+    at UnknownErrorExceptionClosure (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:443:37)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:446:2)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:7939:23)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:88:18
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:91:10
+    at webpackUniversalModuleDefinition (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:18:20)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:25:3)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+2025-04-04T04:44:12.262Z [ERROR]: Error converting file ID: 67ef639b6e6bb711128f3642 to XML: Failed to convert PDF to XML: PDFDocument: stream must have data

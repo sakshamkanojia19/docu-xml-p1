@@ -290,3 +290,69 @@
 2025-04-03T20:18:59.092Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743711539032-Sakshamk-Resume-SRJS10.pdf
 2025-04-03T20:18:59.474Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743711539032-Sakshamk-Resume-SRJS10.pdf
 2025-04-03T20:18:59.580Z [INFO]: Successfully converted file ID: 67eeed3315ff30146caa572a to XML
+2025-04-04T04:30:50.884Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:30:51.679Z [INFO]: Connected to MongoDB
+2025-04-04T04:31:08.224Z [ERROR]: Not Found - /favicon.ico - /favicon.ico - GET - ::1
+2025-04-04T04:31:08.228Z [ERROR]: Error: Not Found - /favicon.ico
+    at notFound (F:\Pdf-xml\server\middleware\errorHandler.js:6:17)
+    at Layer.handle [as handle_request] (F:\Pdf-xml\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:328:13)
+    at F:\Pdf-xml\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (F:\Pdf-xml\server\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (F:\Pdf-xml\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\Pdf-xml\server\node_modules\express\lib\router\index.js:328:13)
+    at F:\Pdf-xml\server\node_modules\express\lib\router\index.js:286:9
+2025-04-04T04:38:19.448Z [INFO]: File uploaded: Sakshamk-Resume-DE2.pdf by user 67eec3d3559bb956626b568e
+2025-04-04T04:38:19.557Z [INFO]: Starting PDF to XML conversion for file ID: 67ef623bf5753f07373d76bf
+2025-04-04T04:38:19.559Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743741499346-Sakshamk-Resume-DE2.pdf
+2025-04-04T04:38:20.206Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743741499346-Sakshamk-Resume-DE2.pdf
+2025-04-04T04:38:20.373Z [INFO]: Successfully converted file ID: 67ef623bf5753f07373d76bf to XML
+2025-04-04T04:41:47.796Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:41:48.566Z [INFO]: Connected to MongoDB
+2025-04-04T04:42:18.517Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:42:19.224Z [INFO]: Connected to MongoDB
+2025-04-04T04:43:16.078Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:43:16.777Z [INFO]: Connected to MongoDB
+2025-04-04T04:43:19.149Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:43:19.816Z [INFO]: Connected to MongoDB
+2025-04-04T04:43:37.557Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:43:42.239Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:43:42.864Z [INFO]: Connected to MongoDB
+2025-04-04T04:43:52.698Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:43:53.304Z [INFO]: Connected to MongoDB
+2025-04-04T04:43:57.545Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:43:58.188Z [INFO]: Connected to MongoDB
+2025-04-04T04:44:11.839Z [INFO]: File uploaded: response sheet cat.pdf by user 67eec3d3559bb956626b568e
+2025-04-04T04:44:11.924Z [INFO]: Starting PDF to XML conversion for file ID: 67ef639b6e6bb711128f3642
+2025-04-04T04:44:11.926Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743741851831-response sheet cat.pdf
+2025-04-04T04:44:12.257Z [ERROR]: Error converting PDF to XML: PDFDocument: stream must have data
+2025-04-04T04:44:12.260Z [ERROR]: Error
+    at UnknownErrorExceptionClosure (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:443:37)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:446:2)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:7939:23)
+    at __w_pdfjs_require__ (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:45:30)
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:88:18
+    at F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:91:10
+    at webpackUniversalModuleDefinition (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:18:20)
+    at Object.<anonymous> (F:\Pdf-xml\server\node_modules\pdf-parse\lib\pdf.js\v1.10.100\build\pdf.js:25:3)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+2025-04-04T04:44:12.262Z [ERROR]: Error converting file ID: 67ef639b6e6bb711128f3642 to XML: Failed to convert PDF to XML: PDFDocument: stream must have data
+2025-04-04T04:44:25.649Z [INFO]: File uploaded: Sakshamk-Resume-DE2.pdf by user 67eec3d3559bb956626b568e
+2025-04-04T04:44:25.703Z [INFO]: Starting PDF to XML conversion for file ID: 67ef63a96e6bb711128f364c
+2025-04-04T04:44:25.704Z [INFO]: Starting conversion of PDF: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743741865562-Sakshamk-Resume-DE2.pdf
+2025-04-04T04:44:26.172Z [INFO]: Successfully converted PDF to XML: F:\Pdf-xml\server\uploads\67eec3d3559bb956626b568e\1743741865562-Sakshamk-Resume-DE2.pdf
+2025-04-04T04:44:26.239Z [INFO]: Successfully converted file ID: 67ef63a96e6bb711128f364c to XML
+2025-04-04T04:46:01.614Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:46:03.213Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:46:03.783Z [INFO]: Connected to MongoDB
+2025-04-04T04:46:05.159Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:46:05.743Z [INFO]: Connected to MongoDB
+2025-04-04T04:46:10.634Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:46:11.225Z [INFO]: Connected to MongoDB
+2025-04-04T04:46:14.751Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:46:15.363Z [INFO]: Connected to MongoDB
+2025-04-04T04:46:20.139Z [INFO]: Server is running on http://localhost:5000
+2025-04-04T04:46:20.974Z [INFO]: Connected to MongoDB

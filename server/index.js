@@ -3,27 +3,32 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
+const cookieParser = require('cookie-parser')
 const authRoutes = require('./routes/auth');
 const fileRoutes = require('./routes/files');
 const verifyToken = require('./middleware/auth');
 const { notFound, errorHandler } = require('./middleware/errorHandler');
 const logger = require('./utils/logger');
 
-// Load environment variables
+
 dotenv.config();
 
-// Create Express app
+
 const app = express();
 
-// Middleware
-app.use(cors({
-  origin: 'https://docu-xml.vercel.app', // Allow your frontend to make requests to the backend
-  credentials: true, // Allow credentials (if needed)
-}));
-app.options('*', cors()); // Pre-flight requests for all routes
-app.use(express.json());
+const PORT = process.env.PORT;
 
-// Connect to MongoDB
+// Middleware
+// app.use(cors({
+//   origin: 'https://docu-xml.vercel.app', 
+//   credentials: true, 
+// }));
+// app.options('*', cors()); 
+app.use(cors());
+app.use(express.json());
+app.use(cookieParser());
+
+
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => logger.info('Connected to MongoDB'))
   .catch(err => {
@@ -45,9 +50,8 @@ app.use(notFound);
 app.use(errorHandler);
 
 // Start server
-const PORT = process.env.PORT;
 app.listen(PORT, () => {
-  logger.info(`Server is running on ${PORT}`);
+  logger.info(`Server is running on http://localhost:${PORT}`);
 });
 
 // Handle unhandled promise rejections
